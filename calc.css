@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(68, 68, 107);
+}
+
+.logo{
+    position: absolute;
+    top: 90px;
+    left: 400px;
+    color: wheat;
+    font-family: monospace;
+}
+.moon{
+    height: 30px;
+    position: absolute;
+    left: 840px;
+    top: 110px;
+}
+.moon:hover{
+    cursor: pointer;
+}
+.input{
+    height: 70px;
+    width: 460px;
+    position: absolute;
+    left: 400px;
+    top: 150px;
+    border: 3px solid wheat;
+    border-radius: 20px;
+    font-size: xx-large;
+    background-color:rgb(37, 37, 57);
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+}
+.number_div{
+    height: 435px;
+    width: 475px;
+    position: absolute;
+    background-color:rgb(37, 37, 57);
+    left: 400px;
+    top: 250px;
+    border: 3px solid wheat;
+    border-radius:20px ;
+}
+.numbers{
+    position: absolute;
+    height: 80px;
+    width: 100px;
+    background-color: white;
+    left: 100px;
+    border: 2px solid pink;
+    border-radius: 20px;
+    font-size: xx-large;
+}
+.num7{
+    left: 15px;
+    top: 10px;
+}
+.num8{
+    left: 130px;
+    top: 10px;
+}
+.num9{
+    left: 245px;
+    top: 10px;
+}
+.del{
+    left: 360px;
+    top: 10px;
+    background-color: wheat;
+}
+.num4{
+    left: 15px;
+    top: 100px;
+}
+.num5{
+    left: 130px;
+    top: 100px;
+}
+.num6{
+    left: 245px;
+    top: 100px;
+}
+.plus{
+    left: 360px;
+    top: 100px;
+    background-color: wheat;
+}
+.num1{
+    left: 15px;
+    top: 190px;
+}
+.num2{
+    left: 130px;
+    top: 190px;
+}
+.num3{
+    left: 245px;
+    top: 190px;
+}
+.minus{
+    left: 360px;
+    top: 190px;
+    background-color: wheat;
+}
+.point{
+    left: 15px;
+    top: 280px;
+}
+.num0{
+    left: 130px;
+    top: 280px;
+}
+.division{
+    left: 245px;
+    top: 280px;
+    background-color: wheat;
+}
+.mul{
+    left: 360px;
+    top: 280px;
+    background-color: wheat;
+}
+.bottom{
+    position: absolute;
+    height: 50px;
+    width: 215px;
+    background-color: white;
+    left: 100px;
+    border: 2px solid pink;
+    border-radius: 20px;
+    font-size: xx-large;
+}
+.reset{
+    left: 15px;
+    top: 370px;
+    background-color: wheat;
+}
+.equal{
+    top: 370px;
+    left:240px ;
+    background-color: rgb(170, 65, 65);
+}
+.numbers:hover{
+    background-color: rgba(255, 255, 255, 0.555);
+}
+.reset:hover{
+    background-color: rgba(255, 255, 255, 0.555);
+}
+.equal:hover{
+    background-color: rgba(255, 255, 255, 0.555);
+}

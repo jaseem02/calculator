@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calc.css">
+</head>
+<body>
+    <h1 class="logo">Calc</h1>
+    <button onclick="theme_change()"><img id="moon" class="moon" src="./moon.png" alt=""></button>
+    <input id="input" class="input" type="text"  disabled >
+    <div id="number_div" class="number_div">
+        <button id="7" class="numbers num7" value="7" onclick="num7()">7</button>
+        <button id="8" class="numbers num8" value="8" onclick="num8()">8</button>
+        <button id="9" class="numbers num9" value="9" onclick="num9()">9</button>
+        <button id="del_id" class="numbers del" value="Del" onclick="del()">Del</button>
+        <button id="4" class="numbers num4" value="4" onclick="num4()">4</button>
+        <button id="5" class="numbers num5" value="5" onclick="num5()">5</button>
+        <button id="6" class="numbers num6" value="6" onclick="num6()">6</button>
+        <button id="plus_id" class="numbers plus" value="+" onclick="plus()">+</button>
+        <button id="1" class="numbers num1" value="1" onclick="num1()">1</button>
+        <button id="2" class="numbers num2" value="2" onclick="num2()">2</button>
+        <button id="3" class="numbers num3" value="3" onclick="num3()">3</button>
+        <button id="minus_id" class="numbers minus" value="-" onclick="minus()">-</button>
+        <button id="point_id" class="numbers point" value="." onclick="point()">.</button>
+        <button id="0" class="numbers num0" value="0" onclick="num0()" >0</button>
+        <button id="division_id" class="numbers division" value="/" onclick="division()">/</button>
+        <button id="mul_id" class="numbers mul" value="X" onclick="mul()">X</button>
+        <button id="reset_id" class="bottom reset" value="reset" onclick="reset()">Reset</button>
+        <button id="equal_id" class="bottom equal" value="=" onclick="equal()">=</button>
+        
+
+
+    </div>
+    <script src="./calc.js"></script>
+</body>
+</html>
